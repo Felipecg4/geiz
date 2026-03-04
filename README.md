@@ -17,6 +17,10 @@
 
 GeizAdmin is a free, beautifully designed admin template built with Tailwind CSS and Hugeicons. Built for simplicity and performance, it offers a premium dashboard experience with zero dependencies and a modern aesthetic.
 
+## Preview
+
+![GeizAdmin Preview](./preview.png)
+
 ## Features
 
 - **Blazing Fast:** Optimized for performance with minimal overhead and no framework bloat.
