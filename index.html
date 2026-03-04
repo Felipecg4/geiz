@@ -192,15 +192,19 @@
         </div>
 
         <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-          <div class="feature-card fade-up delay-100 flex flex-col">
-            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-orange-50 text-orange-600">
+          <div class="feature-card fade-up delay-300 flex flex-col ring-2 ring-brand-500 ring-offset-2 relative overflow-hidden">
+            <div class="absolute right-0 top-0 rounded-bl-xl bg-brand-600 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Recommended</div>
+            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-brand-600">
               <img src="/assets/images/tailwind.png" alt="icon" class="h-10 w-10" />
             </div>
             <h3 class="mb-2 text-xl font-bold text-slate-900">HTML + Tailwind</h3>
             <p class="mb-6 flex-1 text-sm text-slate-500">The core template. Open `index.html` in your browser and you're good to go. No npm install needed.</p>
-            <a href="https://github.com/fahmirizalbudi" target="_blank" class="flex w-full items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition-colors hover:bg-slate-50">
+            <button onclick="downloadFile(
+              'https://github.com/fahmirizalbudi/geiz/releases/download/v1.0.0/geiz-html-tailwind.zip',
+              'geiz-html-tailwind.zip'
+            )" class="flex w-full items-center justify-center gap-2 rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-700">
               <i class="hgi-stroke hgi-download-04"></i> Get HTML Version
-            </a>
+            </button>
           </div>
 
           <div class="feature-card fade-up delay-200 flex flex-col">
@@ -214,15 +218,14 @@
             </a>
           </div>
 
-          <div class="feature-card fade-up delay-300 flex flex-col ring-2 ring-brand-500 ring-offset-2 relative overflow-hidden">
-            <div class="absolute right-0 top-0 rounded-bl-xl bg-brand-600 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white">Recommended</div>
-            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-50 text-brand-600">
+          <div class="feature-card fade-up delay-200 flex flex-col">
+            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-red-50 text-red-600">
               <img src="/assets/images/next.png" alt="icon" class="h-10 w-10" />
             </div>
             <h3 class="mb-2 text-xl font-bold text-slate-900">React (Next.js)</h3>
             <p class="mb-6 flex-1 text-sm text-slate-500">Fully typed React components. Designed for Next.js App Router with separated UI components.</p>
-            <a href="#" class="flex w-full items-center justify-center gap-2 rounded-xl bg-brand-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-700">
-              <i class="hgi-stroke hgi-clock-01"></i> In Development
+            <a href="#" class="flex w-full items-center justify-center gap-2 rounded-xl bg-slate-50 px-4 py-2 text-sm font-semibold text-slate-400 cursor-not-allowed">
+              <i class="hgi-stroke hgi-clock-01"></i> Coming Soon
             </a>
           </div>
 
@@ -308,6 +311,16 @@
   }, { threshold: 0.1 });
 
   document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+    </script>
+    <script>
+      function downloadFile(url, filename) {
+        var a = document.createElement('a');
+        a.href = url;
+        if (filename) a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
     </script>
   </body>
 </html>
