@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/svg/logo.svg" width="160" height="160" alt="GeizAdmin Logo">
+<img src="./assets/svg/logo.svg" width="260" height="260" alt="GeizAdmin Logo">
 
 <br />
 <br />
@@ -13,7 +13,7 @@
 
 <br/>
 
-# GeizAdmin
+## GeizAdmin
 
 GeizAdmin is a free, beautifully designed admin template built with Tailwind CSS and Hugeicons. Built for simplicity and performance, it offers a premium dashboard experience with zero dependencies and a modern aesthetic.
 
